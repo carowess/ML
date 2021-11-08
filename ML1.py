@@ -2,11 +2,13 @@ from sklearn.datasets import load_digits
 
 digits = load_digits()
 
-# digits = bunch object
-# 3 useful attributes:
+'''
+digits = bunch object
+3 useful attributes:
     # digits.data - contains all the samples
     # digits.target - tells us what each of the samples represents 
     # digits.images
+'''
 
 #print(digits.DESCR)
 
