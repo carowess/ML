@@ -47,6 +47,7 @@ data_train, data_test, target_train, target_test = train_test_split(
     digits.data, digits.target, random_state=11
 )
 
+
 print(data_train.shape)
 print(data_test.shape)
 print(target_train.shape)
@@ -105,3 +106,4 @@ axes = sns.heatmap(confusion_df, annot=True, cmap=plt2.cm.nipy_spectral_r)
 plt2.show()
 
 ### solution for errors is to add more samples!!!
+
